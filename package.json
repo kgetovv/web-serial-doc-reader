@@ -1,0 +1,50 @@
+{
+  "name": "web-serial-api",
+  "version": "1.1.4",
+  "description": "Library for Web Serial API",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "publish-lib": "npm run build && npm publish"
+  },
+  "keywords": [
+    "Web",
+    "Serial",
+    "API",
+    "Library",
+    "MRZ",
+    "Document",
+    "Reader",
+    "TD1",
+    "TD2",
+    "TD3",
+    "MRVA",
+    "MRVB",
+    "SWISS_DRIVING_LICENSE",
+    "FRENCH_NATIONAL_ID",
+    "Parser",
+    "Autocorrect",
+    "machine",
+    "readable",
+    "zone",
+    "identity",
+    "documents",
+    "card",
+    "passport"
+  ],
+  "author": "kgetov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/dom-serial": "^1.0.3"
+  }
+}
